@@ -1,0 +1,7 @@
+meshes/boxingroom.vcolmesh	Meshes/boxingRoom.vcolmesh	
+meshes/boxingroom.vmesh	Meshes/boxingRoom.vmesh	LODSwitchDistances=
+scenes/boxingroom_p01.dds	Scenes/boxingRoom_P01.dds	sRGB=false
+scenes/boxingroom_p02.dds	Scenes/boxingRoom_P02.dds	sRGB=false
+textures/grey_d.tga	Textures/grey_d.tga	sRGB=false
+textures/grey_s.tga	Textures/grey_s.tga	sRGB=false
+textures/light_d.tga	Textures/light_d.tga	sRGB=false

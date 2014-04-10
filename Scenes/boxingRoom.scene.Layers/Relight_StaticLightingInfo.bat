@@ -1,0 +1,1 @@
+vLux.exe "" -project "C:\Havok\ProjectAnarchy\lighting" -tempfolder "C:\Havok\ProjectAnarchy\lighting\Scenes\boxingRoom.scene.Layers" -out "Scenes\boxingRoom" -quiet -minimized -config "C:\Havok\ProjectAnarchy\lighting\Scenes\boxingRoom.scene.Layers\lighting.cfg"

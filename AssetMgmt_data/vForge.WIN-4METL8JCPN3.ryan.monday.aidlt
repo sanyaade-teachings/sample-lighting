@@ -1,0 +1,8 @@
+meshes/boxingroom.vcolmesh	meshes/boxingroom.vcolmesh	
+meshes/boxingroom.vmesh	meshes/boxingroom.vmesh	
+scenes/boxingbeast_p01.dds	scenes/boxingbeast_p01.dds	Usage="Undefined",sRGB=false
+scenes/boxingroom_p01.dds	scenes/boxingroom_p01.dds	Usage="Undefined",sRGB=false
+scenes/boxingroom_p02.dds	scenes/boxingroom_p02.dds	Usage="Undefined",sRGB=false
+textures/grey_d.tga	textures/grey_d.tga	Usage="Undefined",sRGB=false
+textures/grey_s.tga	textures/grey_s.tga	Usage="Undefined",sRGB=false
+textures/light_d.tga	textures/light_d.tga	Usage="Undefined",sRGB=false

@@ -1,0 +1,210 @@
+{
+    "Configuration": {
+        "Name": "sample-lighting",
+        "FormatVersion": 2,
+        "LastEditTime": 1397167768535592700
+    },
+    "Assets": {
+        "Meshes/boxingRoom.vcolmesh": {
+            "AssetType": "CollisionMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1233311121,
+                "TimeStamp": 1386981112382830300,
+                "LastEditTime": 1397167442034919100
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/boxingRoom.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Meshes/boxingRoom.vmesh_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/grey_d.tga",
+                    "Textures/grey_s.tga",
+                    "Textures/light_d.tga"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3572584162,
+                "TimeStamp": 1386981112395857300,
+                "LastEditTime": 1397167559392361300
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Scenes/boxingRoom_P01.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2381243719,
+                "TimeStamp": 1397167559055098100,
+                "LastEditTime": 1397167562026552500
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": true,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Scenes/boxingRoom_P02.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1800440338,
+                "TimeStamp": 1397167559182205700,
+                "LastEditTime": 1397167562080593000
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": true,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/grey_d.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3433739227,
+                "TimeStamp": 1386981112615304800,
+                "LastEditTime": 1397167561859428300
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 1024,
+                "Height": 1024,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/grey_s.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 577260307,
+                "TimeStamp": 1386981112629321700,
+                "LastEditTime": 1397167561969511200
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 1024,
+                "Height": 1024,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/light_d.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1420959650,
+                "TimeStamp": 1386981112631323800,
+                "LastEditTime": 1397167561986523800
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 256,
+                "Height": 256,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Scenes/boxingBeast_P01.dds": {
+            "AssetType": "__deleted__",
+            "Common": {
+                "DeleteTime": 1397167439958381700
+            },
+            "File": {
+                "LastEditTime": 1397167439958381700
+            }
+        }
+    },
+    "TrackedFiles": {
+        "Meshes/boxingRoom.vmesh_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1386981112407881000,
+            "LastEditTime": 1369338880112751500
+        }
+    }
+}
