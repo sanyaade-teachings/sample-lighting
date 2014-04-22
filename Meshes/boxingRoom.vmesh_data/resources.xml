@@ -1,12 +1,11 @@
 <root>
-    <Resources Version="1" Count="8" PathType="Project">
-        <Resource Manager="Textures" Filename="Atten\smooth.dds" CustomInt="1,1" Size="1024" />
-        <Resource Manager="FILE" Filename="Meshes/boxingRoom.vmesh_data\materials.xml" OwnerRes="7" Size="1342" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="393008" />
+    <Resources Version="1" Count="7" PathType="Project">
+        <Resource Manager="FILE" Filename="Meshes/boxingRoom.vmesh_data\materials.xml" OwnerRes="5" Size="3089" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShaders.ShaderLib" Size="3540544" />
         <Resource Manager="Textures" Filename="Textures\grey_d.tga" CustomInt="1,64" Size="5592404" />
-        <Resource Manager="Textures" Filename="Textures\grey_s.tga" CustomInt="1,0" Size="5592404" />
-        <Resource Manager="Textures" Filename="Textures\light_d.tga" CustomInt="1,64" Size="349524" />
-        <Resource Manager="Textures" Filename="defaultSpotlight.dds" CustomInt="1,0" Size="262144" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Meshes/boxingRoom.vmesh" CustomInt="1,1" Size="168" />
+        <Resource Manager="Textures" Filename="Textures\redRope.tga" CustomInt="1,64" Size="21844" />
+        <Resource Manager="Textures" Filename="plainwhite.dds" CustomInt="1,64" Size="64" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Meshes/boxingRoom.vmesh" CustomInt="1,1" Size="224" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="392352" />
     </Resources>
 </root>

@@ -1,7 +1,19 @@
 <root>
     <Materials override="TRUE">
-        <Material name="lightmap" diffuse="..\Textures\grey_d.tga" specularmap="..\Textures\grey_s.tga" ambient="0,0,0,255" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="-1" userflags="0" sortingkey="0" doublesided="FALSE" Lighting="Lightmapping" pass="Auto" mobileflags="0" transparency="opaque" alphathreshold="0.25" depthwrite="TRUE" zbias="0,0,0" lightmapgran="0" />
-        <Material name="lightgrid" diffuse="..\Textures\grey_d.tga" specularmap="..\Textures\grey_s.tga" ambient="0,0,0,255" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="-1" userflags="0" sortingkey="0" doublesided="FALSE" Lighting="Lightmapping" pass="Auto" mobileflags="0" transparency="opaque" alphathreshold="0.25" depthwrite="TRUE" zbias="0,0,0" lightmapgran="0" />
-        <Material name="19 - Default" diffuse="..\Textures\light_d.tga" ambient="255,255,255,255" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="0" userflags="0" sortingkey="0" doublesided="FALSE" Lighting="Fullbright" pass="Auto" mobileflags="0" transparency="opaque" alphathreshold="0.25" depthwrite="TRUE" zbias="0,0,0" lightmapgran="0" staticshadows="FALSE" />
+        <Material name="lightmap" diffuse="..\Textures\grey_d.tga" specularmap="..\Textures\grey_d.tga" ambient="0,0,0,255" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="-1" userflags="0" sortingkey="0" alphathreshold="0.25" doublesided="FALSE" depthwrite="TRUE" datadirectoryrelative="FALSE" zbias="0,0,0" Lighting="Lightmapping" pass="Auto" transparency="opaque" lightmapgran="0">
+            <AuxTexture index="0" filename="..\Textures\grey_d.tga" />
+            <Shader library="..\Shaders\MobileShaders.ShaderLib" effect="Diffuse" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,-0.03,-0.015;AlphaThreshold=0.25;MaterialAmbient=0,0,0;VertexLighting=False;DynamicLightNormalMapping=False;" />
+        </Material>
+        <Material name="lightgrid" diffuse="..\Textures\grey_d.tga" specularmap="..\Textures\grey_d.tga" ambient="0,0,0,255" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="0" userflags="0" sortingkey="0" alphathreshold="0.25" doublesided="FALSE" depthwrite="TRUE" datadirectoryrelative="FALSE" zbias="0,0,0" Lighting="LightGrid" pass="Auto" transparency="opaque" lightmapgran="0">
+            <AuxTexture index="0" filename="..\Textures\grey_d.tga" />
+            <Shader library="..\Shaders\MobileShaders.ShaderLib" effect="Diffuse" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,-0.03,-0.015;AlphaThreshold=0.25;MaterialAmbient=0,0,0;VertexLighting=False;DynamicLightNormalMapping=False;" />
+        </Material>
+        <Material name="15 - Default" diffuse="..\Textures\redRope.tga" specularmap="..\Textures\grey_d.tga" ambient="0,0,0,255" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="0" userflags="0" sortingkey="0" alphathreshold="0.25" doublesided="FALSE" depthwrite="TRUE" datadirectoryrelative="FALSE" zbias="0,0,0" Lighting="LightGrid" pass="Auto" transparency="opaque" lightmapgran="0">
+            <AuxTexture index="0" filename="..\Textures\redRope.tga" />
+            <Shader library="..\Shaders\MobileShaders.ShaderLib" effect="Diffuse" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,-0.03,-0.015;AlphaThreshold=0.25;MaterialAmbient=0,0,0;VertexLighting=False;DynamicLightNormalMapping=False;" />
+        </Material>
+        <Material name="19 - Default" diffuse="..\plainwhite.dds" ambient="255,255,255,255" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="0" userflags="0" sortingkey="0" alphathreshold="0.25" doublesided="FALSE" depthwrite="TRUE" datadirectoryrelative="FALSE" zbias="0,0,0" Lighting="Fullbright" pass="Auto" transparency="additive" lightmapgran="0">
+            <Shader library="..\Shaders\MobileShaders.ShaderLib" effect="Diffuse" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,-0.03,-0.015;AlphaThreshold=0.25;VertexLighting=False;DynamicLightNormalMapping=False;" />
+        </Material>
     </Materials>
 </root>
