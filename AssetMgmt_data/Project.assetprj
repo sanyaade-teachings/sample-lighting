@@ -4,40 +4,124 @@
             "Platform": "DX9"
         }
     },
-    "TransformRuleTemplates": {
-        "Default": {
-            "pcdx9": {
-                "Texture": {
+    "TransformTemplates": {
+        "Animated Texture": {
+            "Default": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Prefab": {
+            "Default": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Animation": {
+            "Default": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Particle": {
+            "Default": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Model": {
+            "Default": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Unknown": {
+            "Default": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Script": {
+            "Default": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Havok Tagfile": {
+            "Default": {
+                "AllProfiles": {
+                    "TagfileTransformationRule": {
+
+                    }
+                }
+            }
+        },
+        "Texture": {
+            "Default": {
+                "pcdx9": {
                     "TextureTransformationRule": {
                         "Compression": "Quality",
+                        "Usage": "Undefined",
                         "RemoveAlphaChannel": false,
                         "CreateMipMaps": true,
                         "DownscaleLevel": 0,
                         "MinimumSize": 0,
                         "MaximumSize": 0
                     }
-                },
-                "StaticMesh": {
+                }
+            }
+        },
+        "StaticMesh": {
+            "Default": {
+                "pcdx9": {
                     "None": {
 
                     }
-                },
-                "Model": {
-                    "None": {
+                }
+            }
+        },
+        "FBX": {
+            "Default": {
+                "AllProfiles": {
+                    "FbxToTagfileTransformationRule": {
 
                     }
-                },
-                "Prefab": {
-                    "None": {
+                }
+            }
+        },
+        "Collection": {
+            "Default": {
+                "pcdx9": {
+                    "CollectionTransformationRule": {
 
                     }
-                },
-                "Animation": {
-                    "None": {
-
-                    }
-                },
-                "CollisionMesh": {
+                }
+            }
+        },
+        "CollisionMesh": {
+            "Default": {
+                "pcdx9": {
                     "None": {
 
                     }

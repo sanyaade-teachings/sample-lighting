@@ -5,5 +5,4 @@ scenes/boxingroom_p02.dds	Scenes/boxingRoom_P02.dds	sRGB=false
 textures/grey_d.tga	Textures/grey_d.tga	sRGB=false
 textures/grey_s.tga	Textures/grey_s.tga	sRGB=false
 textures/light_d.tga	Textures/light_d.tga	sRGB=false
-meshes/boxingroom.vmesh_data/msh_1.00_1.00_1.00_1_0.hkt	Meshes/boxingRoom.vmesh_data/Msh_1.00_1.00_1.00_1_0.hkt	Filter Target="None",Source="",Target Directory="",Settings="",Target Hash=0
 textures/redrope.tga	Textures/redRope.tga	sRGB=false
